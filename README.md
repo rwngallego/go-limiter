@@ -3,6 +3,7 @@
 [![GoDoc](https://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/mod/github.com/sethvargo/go-limiter)
 [![GitHub Actions](https://img.shields.io/github/workflow/status/sethvargo/go-limiter/Test?style=flat-square)](https://github.com/sethvargo/go-limiter/actions?query=workflow%3ATest)
 
+Fork of the original [https://github.com/sethvargo/go-limiter](https://github.com/sethvargo/go-limiter) to keep API compatibility with `0.3.0` and support Go `1.17`.
 
 This package provides a rate limiter in Go (Golang), suitable for use in HTTP
 servers and distributed workloads. It's specifically designed for
