@@ -2,7 +2,7 @@
 // requests. It's an empty store useful for testing or development.
 package noopstore
 
-import "github.com/sethvargo/go-limiter"
+import "github.com/rwngallego/go-limiter"
 
 var _ limiter.Store = (*store)(nil)
 

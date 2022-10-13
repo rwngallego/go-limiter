@@ -1,7 +1,7 @@
 # Go Rate Limiter
 
-[![GoDoc](https://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/mod/github.com/sethvargo/go-limiter)
-[![GitHub Actions](https://img.shields.io/github/workflow/status/sethvargo/go-limiter/Test?style=flat-square)](https://github.com/sethvargo/go-limiter/actions?query=workflow%3ATest)
+[![GoDoc](https://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/mod/github.com/rwngallego/go-limiter)
+[![GitHub Actions](https://img.shields.io/github/workflow/status/rwngallego/go-limiter/Test?style=flat-square)](https://github.com/rwngallego/go-limiter/actions?query=workflow%3ATest)
 
 
 This package provides a rate limiter in Go (Golang), suitable for use in HTTP
@@ -136,15 +136,15 @@ arbitrary string key.
 
 Memory is the fastest store, but only works on a single container/virtual
 machine since there's no way to share the state.
-[Learn more](https://pkg.go.dev/github.com/sethvargo/go-limiter/memorystore).
+[Learn more](https://pkg.go.dev/github.com/rwngallego/go-limiter/memorystore).
 
 #### Redis
 
 Redis uses Redis + Lua as a shared pool, but comes at a performance cost.
-[Learn more](https://pkg.go.dev/github.com/sethvargo/go-limiter/redisstore).
+[Learn more](https://pkg.go.dev/github.com/rwngallego/go-limiter/redisstore).
 
 #### Noop
 
 Noop does no rate limiting, but still implements the interface - useful for
 testing and local development.
-[Learn more](https://pkg.go.dev/github.com/sethvargo/go-limiter/noopstore).
+[Learn more](https://pkg.go.dev/github.com/rwngallego/go-limiter/noopstore).

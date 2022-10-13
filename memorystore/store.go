@@ -7,8 +7,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/sethvargo/go-limiter"
-	"github.com/sethvargo/go-limiter/internal/fasttime"
+	"github.com/rwngallego/go-limiter"
+	"github.com/rwngallego/go-limiter/internal/fasttime"
 )
 
 var _ limiter.Store = (*store)(nil)

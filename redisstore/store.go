@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/sethvargo/go-limiter"
+	"github.com/rwngallego/go-limiter"
 )
 
 var _ limiter.Store = (*store)(nil)

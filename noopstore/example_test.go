@@ -3,7 +3,7 @@ package noopstore_test
 import (
 	"log"
 
-	"github.com/sethvargo/go-limiter/noopstore"
+	"github.com/rwngallego/go-limiter/noopstore"
 )
 
 func ExampleNew() {

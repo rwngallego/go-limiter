@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/sethvargo/go-limiter/redisstore"
+	"github.com/rwngallego/go-limiter/redisstore"
 )
 
 func ExampleNew() {
